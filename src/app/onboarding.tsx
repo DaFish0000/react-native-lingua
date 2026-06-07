@@ -94,7 +94,7 @@ export default function Onboarding() {
       {/* Get Started button */}
       <View className="px-6 pb-8">
         <Pressable
-          onPress={() => router.replace("/")}
+          onPress={() => router.push("/sign-up" as any)}
           className="btn btn--primary flex-row items-center justify-center rounded-2xl"
         >
           <Text
